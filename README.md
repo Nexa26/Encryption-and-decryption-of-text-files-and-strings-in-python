@@ -12,12 +12,16 @@ pip install UPL
 
 ## Usage
 
-1. Run the `file_ednc.py` or `string_ednc.py` file.
-2. Enter the text or file you want to encrypt or decrypt.
-3. Enter the key.
-4. Click on the "Encrypt" or "Decrypt" button.
+cryptography is a package in python which provides cryptographic recipes and primitives to Python developers.
+cryptography includes both high level recipes and low level interfaces to common cryptographic algorithms such as symmetric ciphers, message digests, and key derivation functions.\\ 
 
-The encrypted or decrypted text or file will be saved in the `tdec.txt` or `tenc.txt` file.
+In this project we mainly use the fernet module from cryptography package
+from cryptography.fernet import Fernet\\
+
+We have a key_file which is used to generate the key for encryption and it is stored in my_key.key for a file
+Similarly for strings we have key_string\\
+
+file_ednc.py and string_ednc.py are where we give input for what text or file needs to be encrypted or decrypted and tdec.txt and tenc.txt are the selected files after decryption and encryption.\\
 
 
 ## Credits
