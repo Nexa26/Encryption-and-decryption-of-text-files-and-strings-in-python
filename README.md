@@ -12,6 +12,17 @@ pip install UPL
 
 ## Usage
 
+1. Run the file cs_proj.py
+2. Select if you want to encrypt text or files
+3. For text 
+4. Enter the text nd click on encrypt
+For files
+5. Select the file you want to encrypt
+6. Give the name of the encrypted file 
+7. And to decrypt 
+8. Give the name of the decrypted file.
+
+
 cryptography is a package in python which provides cryptographic recipes and primitives to Python developers.
 cryptography includes both high level recipes and low level interfaces to common cryptographic algorithms such as symmetric ciphers, message digests, and key derivation functions.
 
