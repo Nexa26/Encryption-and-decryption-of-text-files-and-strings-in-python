@@ -6,7 +6,7 @@ This project is a GUI based application using tkinter that can encrypt and decry
 
 1. Install the cryptography and UPL packages using the following commands:
 
-pip install cryptography
+pip install cryptography\
 pip install UPL
 
 
