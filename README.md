@@ -12,7 +12,7 @@ pip install UPL
 
 ## Usage
 
-1. Run the file cs_proj.py
+1  Run the file cs_proj.py
 2. Select if you want to encrypt text or files
 3. For text 
 4. Enter the text nd click on encrypt
